@@ -6,6 +6,7 @@ import mysql.connector
 from datetime import datetime
 from scanner import scanner
 from singlescan import single_scanner
+import regex as re
 
 
 app  = Flask(__name__)
@@ -119,6 +120,17 @@ def addTarget():
     if request.method == 'POST':
         target = request.form.get('address')
         desc = request.form.get('description')
+        if len(target)==0 or len(desc)==0:
+            flash('Please add both Domain Name and Domain Description', 'Error')
+            return redirect(url_for('addTarget'))
+        else:
+            regex="^www.[-a-zA-Z0-9@:%._\\+~#?&//=]{2,256}\\.[a-z]{2,6}\\b([-a-zA-Z0-9@:%._\\+~#?&//=]*)$"
+            r = re.compile(regex)
+            if not re.search(r, target):
+                flash('Please add both Domain Name and Domain Description', 'Error')
+                return redirect(url_for('addTarget'))
+
+
         severity = None
         userID = session['UserID'] # fetching the current user id
         userName = session['user'] # fetching the current user username

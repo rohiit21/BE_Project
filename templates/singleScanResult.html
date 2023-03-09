@@ -142,7 +142,7 @@
   </div>
 
   <div class="descrip">
-    <p>Vulnerability scan report for : <span style="color:black; text-decoration:underline">{{DomainName}}</span></p>
+    <p>Vulnerability scan report for : <span style="color:black; text-decoration:underline">{{target}}</span></p>
     
   </div>
 
@@ -220,7 +220,7 @@
                 <h5 style="display: inline-flex;">XSS Vulnerable URL's : </h5> <br> 
                 <h5>
                 {%for url in data%}
-                    <span style="font-weight: 100;"> --> {{url}}</span><br>
+                    <span style="font-weight: 100;"> --> {{url}}</span><br><br>
                 {%endfor%}
                 </h5>
             {%endif%}
@@ -231,7 +231,7 @@
                 <h5 style="display: inline-flex;">SQL Vulnerable URL's : </h5> <br>
                 <h5>
                 {%for url in data%}
-                    <span style="font-weight: 100;"> --> {{url}}</span><br>
+                    <span style="font-weight: 100;"> --> {{url}}</span><br><br>
                 {%endfor%}
                 </h5>
             {%endif%}
@@ -242,7 +242,7 @@
                 <h5 style="display: inline-flex;">Open redirection Vulnerable URL's : </h5><br>
                 <h5> 
                 {%for url in data%}
-                    <span style="font-weight: 100;"> --> {{url}}</span><br>
+                    <span style="font-weight: 100;"> --> {{url}}</span><br><br>
                 {%endfor%}
                 </h5>
             {%endif%}

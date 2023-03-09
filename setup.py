@@ -58,7 +58,14 @@ def setup():
     db = conn.cursor()
 
     userName = input("Enter username : ")
-    email = input("Enter the email : ")
+    while True:
+        email = input("Enter the email : ")
+        regex = r'\b[A-Za-z0-9._%+-]+@[A-Za-z0-9.-]+\.[A-Z|a-z]{2,7}\b'
+        r = re.compile(regex)
+        if re.search(r, email):
+            break
+        print("Enter email in proper fomrat email@domain.com")
+    
     password_validation_case = "Password must follow the following condition : Minimum 8 characters.The alphabet must be between [a-z]At least one alphabet should be of Upper Case [A-Z]At least 1 number or digit between [0-9].At least 1 character from [ _ or @ or $ ]."
     while True:
         password = input("Enter the password : ")
