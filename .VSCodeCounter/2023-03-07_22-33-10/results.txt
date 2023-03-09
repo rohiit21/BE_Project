@@ -1,0 +1,98 @@
+Date : 2023-03-07 22:33:10
+Directory : c:\Users\Pratik\Desktop\Repaper\Weber_Final_Year_Project
+Total : 51 files,  5506 codes, 657 comments, 1060 blanks, all 7223 lines
+
+Languages
++------------------+------------+------------+------------+------------+------------+
+| language         | files      | code       | comment    | blank      | total      |
++------------------+------------+------------+------------+------------+------------+
+| CSS              |          9 |      2,783 |        232 |        456 |      3,471 |
+| HTML             |         12 |      1,443 |         82 |        246 |      1,771 |
+| Python           |         29 |      1,277 |        343 |        358 |      1,978 |
+| pip requirements |          1 |          3 |          0 |          0 |          3 |
++------------------+------------+------------+------------+------------+------------+
+
+Directories
++-------------------------------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+| path                                                                                                  | files      | code       | comment    | blank      | total      |
++-------------------------------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+| .                                                                                                     |         51 |      5,506 |        657 |      1,060 |      7,223 |
+| . (Files)                                                                                             |          9 |        469 |        189 |        173 |        831 |
+| Tools                                                                                                 |         21 |        811 |        154 |        185 |      1,150 |
+| Tools (Files)                                                                                         |          1 |         70 |          0 |         11 |         81 |
+| Tools\clickjack                                                                                       |          1 |         30 |         25 |          7 |         62 |
+| Tools\mailMisconfig                                                                                   |          1 |         97 |          4 |         16 |        117 |
+| Tools\openredirect                                                                                    |          7 |        268 |         27 |         59 |        354 |
+| Tools\openredirect (Files)                                                                            |          2 |        156 |          6 |         33 |        195 |
+| Tools\openredirect\Crawler                                                                            |          5 |        112 |         21 |         26 |        159 |
+| Tools\openredirect\Crawler (Files)                                                                    |          1 |         12 |         16 |          6 |         34 |
+| Tools\openredirect\Crawler\core                                                                       |          4 |        100 |          5 |         20 |        125 |
+| Tools\security_header                                                                                 |          1 |         80 |         28 |         12 |        120 |
+| Tools\ssl_check                                                                                       |          1 |         77 |          2 |         18 |         97 |
+| Tools\subdomainTakeover                                                                               |          1 |         15 |          0 |          2 |         17 |
+| Tools\xss                                                                                             |          8 |        174 |         68 |         60 |        302 |
+| Tools\xss (Files)                                                                                     |          1 |         31 |         22 |         21 |         74 |
+| Tools\xss\core                                                                                        |          4 |        100 |          5 |         20 |        125 |
+| Tools\xss\util                                                                                        |          3 |         43 |         41 |         19 |        103 |
+| static                                                                                                |          9 |      2,783 |        232 |        456 |      3,471 |
+| static\css                                                                                            |          9 |      2,783 |        232 |        456 |      3,471 |
+| templates                                                                                             |         12 |      1,443 |         82 |        246 |      1,771 |
++-------------------------------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+
+Files
++-------------------------------------------------------------------------------------------------------+------------------+------------+------------+------------+------------+
+| filename                                                                                              | language         | code       | comment    | blank      | total      |
++-------------------------------------------------------------------------------------------------------+------------------+------------+------------+------------+------------+
+| c:\Users\Pratik\Desktop\Repaper\Weber_Final_Year_Project\Tools\clickjack\clickjack.py                 | Python           |         30 |         25 |          7 |         62 |
+| c:\Users\Pratik\Desktop\Repaper\Weber_Final_Year_Project\Tools\mailMisconfig\Mail_Mis_Config.py       | Python           |         97 |          4 |         16 |        117 |
+| c:\Users\Pratik\Desktop\Repaper\Weber_Final_Year_Project\Tools\mailmisconfig.py                       | Python           |         70 |          0 |         11 |         81 |
+| c:\Users\Pratik\Desktop\Repaper\Weber_Final_Year_Project\Tools\openredirect\Crawler\core\__init__.py  | Python           |          0 |          0 |          1 |          1 |
+| c:\Users\Pratik\Desktop\Repaper\Weber_Final_Year_Project\Tools\openredirect\Crawler\core\extractor.py | Python           |         22 |          2 |          9 |         33 |
+| c:\Users\Pratik\Desktop\Repaper\Weber_Final_Year_Project\Tools\openredirect\Crawler\core\requester.py | Python           |         57 |          3 |          4 |         64 |
+| c:\Users\Pratik\Desktop\Repaper\Weber_Final_Year_Project\Tools\openredirect\Crawler\core\save_it.py   | Python           |         21 |          0 |          6 |         27 |
+| c:\Users\Pratik\Desktop\Repaper\Weber_Final_Year_Project\Tools\openredirect\Crawler\parameterCrawl.py | Python           |         12 |         16 |          6 |         34 |
+| c:\Users\Pratik\Desktop\Repaper\Weber_Final_Year_Project\Tools\openredirect\open_redirection_final.py | Python           |         69 |          4 |         20 |         93 |
+| c:\Users\Pratik\Desktop\Repaper\Weber_Final_Year_Project\Tools\openredirect\openredirect_3.py         | Python           |         87 |          2 |         13 |        102 |
+| c:\Users\Pratik\Desktop\Repaper\Weber_Final_Year_Project\Tools\security_header\security_header.py     | Python           |         80 |         28 |         12 |        120 |
+| c:\Users\Pratik\Desktop\Repaper\Weber_Final_Year_Project\Tools\ssl_check\ssl.py                       | Python           |         77 |          2 |         18 |         97 |
+| c:\Users\Pratik\Desktop\Repaper\Weber_Final_Year_Project\Tools\subdomainTakeover\subfinder.py         | Python           |         15 |          0 |          2 |         17 |
+| c:\Users\Pratik\Desktop\Repaper\Weber_Final_Year_Project\Tools\xss\core\__init__.py                   | Python           |          0 |          0 |          1 |          1 |
+| c:\Users\Pratik\Desktop\Repaper\Weber_Final_Year_Project\Tools\xss\core\extractor.py                  | Python           |         22 |          2 |          9 |         33 |
+| c:\Users\Pratik\Desktop\Repaper\Weber_Final_Year_Project\Tools\xss\core\requester.py                  | Python           |         57 |          3 |          4 |         64 |
+| c:\Users\Pratik\Desktop\Repaper\Weber_Final_Year_Project\Tools\xss\core\save_it.py                    | Python           |         21 |          0 |          6 |         27 |
+| c:\Users\Pratik\Desktop\Repaper\Weber_Final_Year_Project\Tools\xss\util\checker.py                    | Python           |         20 |         18 |          8 |         46 |
+| c:\Users\Pratik\Desktop\Repaper\Weber_Final_Year_Project\Tools\xss\util\parameterCrawl.py             | Python           |         13 |          9 |          4 |         26 |
+| c:\Users\Pratik\Desktop\Repaper\Weber_Final_Year_Project\Tools\xss\util\urlparser.py                  | Python           |         10 |         14 |          7 |         31 |
+| c:\Users\Pratik\Desktop\Repaper\Weber_Final_Year_Project\Tools\xss\xss.py                             | Python           |         31 |         22 |         21 |         74 |
+| c:\Users\Pratik\Desktop\Repaper\Weber_Final_Year_Project\__init__.py                                  | Python           |          0 |          0 |          1 |          1 |
+| c:\Users\Pratik\Desktop\Repaper\Weber_Final_Year_Project\abc_4.py                                     | Python           |          0 |         44 |         15 |         59 |
+| c:\Users\Pratik\Desktop\Repaper\Weber_Final_Year_Project\db.py                                        | Python           |         13 |          0 |          4 |         17 |
+| c:\Users\Pratik\Desktop\Repaper\Weber_Final_Year_Project\main.py                                      | Python           |        235 |         23 |         67 |        325 |
+| c:\Users\Pratik\Desktop\Repaper\Weber_Final_Year_Project\requirements.txt                             | pip requirements |          3 |          0 |          0 |          3 |
+| c:\Users\Pratik\Desktop\Repaper\Weber_Final_Year_Project\sample.py                                    | Python           |         19 |         21 |          7 |         47 |
+| c:\Users\Pratik\Desktop\Repaper\Weber_Final_Year_Project\scanner.py                                   | Python           |         80 |         95 |         51 |        226 |
+| c:\Users\Pratik\Desktop\Repaper\Weber_Final_Year_Project\setup.py                                     | Python           |        105 |          6 |         22 |        133 |
+| c:\Users\Pratik\Desktop\Repaper\Weber_Final_Year_Project\static\css\abtstyle.css                      | CSS              |        114 |         18 |         22 |        154 |
+| c:\Users\Pratik\Desktop\Repaper\Weber_Final_Year_Project\static\css\dashboardNewStyle.css             | CSS              |        674 |         68 |        120 |        862 |
+| c:\Users\Pratik\Desktop\Repaper\Weber_Final_Year_Project\static\css\loginStyle.css                    | CSS              |        163 |         12 |         26 |        201 |
+| c:\Users\Pratik\Desktop\Repaper\Weber_Final_Year_Project\static\css\reportStyle.css                   | CSS              |        297 |          7 |         56 |        360 |
+| c:\Users\Pratik\Desktop\Repaper\Weber_Final_Year_Project\static\css\resourcestyle.css                 | CSS              |        211 |          1 |         41 |        253 |
+| c:\Users\Pratik\Desktop\Repaper\Weber_Final_Year_Project\static\css\scanningstyle.css                 | CSS              |        346 |          1 |         12 |        359 |
+| c:\Users\Pratik\Desktop\Repaper\Weber_Final_Year_Project\static\css\singlescan.css                    | CSS              |        674 |         68 |        120 |        862 |
+| c:\Users\Pratik\Desktop\Repaper\Weber_Final_Year_Project\static\css\targetliststyle.css               | CSS              |        245 |         56 |         48 |        349 |
+| c:\Users\Pratik\Desktop\Repaper\Weber_Final_Year_Project\static\css\welcomeStyle.css                  | CSS              |         59 |          1 |         11 |         71 |
+| c:\Users\Pratik\Desktop\Repaper\Weber_Final_Year_Project\templates\Login.html                         | HTML             |         47 |          0 |          6 |         53 |
+| c:\Users\Pratik\Desktop\Repaper\Weber_Final_Year_Project\templates\ReportList.html                    | HTML             |        159 |         14 |         34 |        207 |
+| c:\Users\Pratik\Desktop\Repaper\Weber_Final_Year_Project\templates\TargetList.html                    | HTML             |        156 |         14 |         33 |        203 |
+| c:\Users\Pratik\Desktop\Repaper\Weber_Final_Year_Project\templates\about.html                         | HTML             |         26 |          1 |          3 |         30 |
+| c:\Users\Pratik\Desktop\Repaper\Weber_Final_Year_Project\templates\addTarget.html                     | HTML             |        128 |          8 |         23 |        159 |
+| c:\Users\Pratik\Desktop\Repaper\Weber_Final_Year_Project\templates\dashboard.html                     | HTML             |        157 |          9 |         26 |        192 |
+| c:\Users\Pratik\Desktop\Repaper\Weber_Final_Year_Project\templates\report.html                        | HTML             |        224 |         19 |         58 |        301 |
+| c:\Users\Pratik\Desktop\Repaper\Weber_Final_Year_Project\templates\resources.html                     | HTML             |        115 |          8 |         19 |        142 |
+| c:\Users\Pratik\Desktop\Repaper\Weber_Final_Year_Project\templates\scanning.html                      | HTML             |        255 |          0 |         15 |        270 |
+| c:\Users\Pratik\Desktop\Repaper\Weber_Final_Year_Project\templates\singleScan.html                    | HTML             |        133 |          9 |         23 |        165 |
+| c:\Users\Pratik\Desktop\Repaper\Weber_Final_Year_Project\templates\test.html                          | HTML             |         19 |          0 |          2 |         21 |
+| c:\Users\Pratik\Desktop\Repaper\Weber_Final_Year_Project\templates\welcome.html                       | HTML             |         24 |          0 |          4 |         28 |
+| c:\Users\Pratik\Desktop\Repaper\Weber_Final_Year_Project\test.py                                      | Python           |         14 |          0 |          6 |         20 |
+| Total                                                                                                 |                  |      5,506 |        657 |      1,060 |      7,223 |
++-------------------------------------------------------------------------------------------------------+------------------+------------+------------+------------+------------+
